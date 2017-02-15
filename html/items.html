@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Basic Items API</title>
+</head>
+
+<body>
+    <div id="learnosity_assess"></div>
+    <script src="//items.learnosity.com/"></script>
+    <script>
+        var request = {{request}};
+        var eventOptions = {
+            readyListener: function() {
+            }
+        }
+        var itemsApp = LearnosityItems.init(request, eventOptions);
+        
+    </script>
+</body>
+
+</html>
