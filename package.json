@@ -1,5 +1,5 @@
 {
-  "name": "lti-first",
+  "name": "lti-second",
   "version": "1.0.0",
   "description": "first try at a lti tool provider",
   "main": "index.js",
@@ -7,8 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "Joshua McKinney",
-  "license": "MIT",
   "dependencies": {
     "body-parser": "^1.16.1",
     "chalk": "^1.1.3",
@@ -25,5 +23,7 @@
   "bugs": {
     "url": "https://github.com/byuicampuscd/lti-first/issues"
   },
-  "homepage": "https://github.com/byuicampuscd/lti-first#readme"
+  "homepage": "https://github.com/byuicampuscd/lti-first#readme",
+  "author": "Joshua McKinney",
+  "license": "MIT"
 }
